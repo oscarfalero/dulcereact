@@ -1,5 +1,5 @@
 import React from "react";
-import "./TopHeader.css";
+import "./TopHeader.module.css";
 import fbLogo from "./icons/fb.svg";
 import instLogo from "./icons/inst.svg";
 import mailLogo from "./icons/mail.svg";
@@ -22,10 +22,20 @@ const TopHeader = () => {
           <a href={instaLink} target="_blank" rel="noreferrer noopener">
             <img src={instLogo} alt="instagram" />
           </a>
-          <a className="mailLogo" href={emailLink} target="_blank" rel="noreferrer noopener">
+          <a
+            className="mailLogo"
+            href={emailLink}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img src={mailLogo} alt="email" />
           </a>
-          <a className="wpLogo" href={phoneLink} target="_blank" rel="noreferrer noopener">
+          <a
+            className="wpLogo"
+            href={phoneLink}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img src={waLogo} alt="whatsapp" />
           </a>
         </div>
