@@ -1,10 +1,10 @@
 import React from "react";
-import "./NavBar.module.css";
+import styles from "./NavBar.module.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="container">
+      <div className={styles.container}>
         <nav>
           <ul className="nav-ul">
             <li>
