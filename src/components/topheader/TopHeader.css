@@ -29,3 +29,19 @@ a {
 .log_area a {
   margin: 0px 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .log_area {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 599px) {
+  .mailLogo {
+    display: none;
+  }
+  .wpLogo {
+    display: none;
+  }
+}
