@@ -1,25 +1,14 @@
 import React from "react";
 import styles from "./NavBar.module.css";
+import 'boxicons';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className={styles.container}>
-        <nav>
-          <ul className="nav-ul">
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="index.html">Funciones</a>
-            </li>
-            <li>
-              <a href="index.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+    <nav className={styles.nav}>
+      <a href="#">
+      <i class='bx bxs-dashboard' ></i>
+      </a>
+    </nav>
   );
 };
 

@@ -11,7 +11,7 @@ a {
   color: #000;
 }
 
-.container {
+/* .container {
   max-width: 80%;
   margin: 0 auto;
 }
@@ -22,3 +22,14 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+
+.btn_menu {
+  background-color: #fc6c3f;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 30px;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+} */
