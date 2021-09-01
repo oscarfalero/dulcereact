@@ -23,7 +23,7 @@ const TopHeader = () => {
             <img src={instLogo} alt="instagram" />
           </a>
           <a
-            className={styles.mail_logo}
+            className={styles.mailLogo}
             href={emailLink}
             target="_blank"
             rel="noreferrer noopener"
@@ -31,7 +31,7 @@ const TopHeader = () => {
             <img src={mailLogo} alt="email" />
           </a>
           <a
-            className={styles.wp_Logo}
+            className={styles.wpLogo}
             href={phoneLink}
             target="_blank"
             rel="noreferrer noopener"
