@@ -31,6 +31,7 @@
   background-color: #ffffff;
   display: flex;
   overflow-x: auto;
+  z-index: 9999;
 }
 
 .nav_link {
@@ -47,13 +48,13 @@
   color: #444444;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
-  transition: background-color 0,1s ease-in-out;
+  transition: background-color 0, 1s ease-in-out;
 }
 
 .nav_link:hover {
   color: #fc6c3f;
 }
 
-.nav_link img:hover{
+.nav_link img:hover {
   color: #fc6c3f;
 }
