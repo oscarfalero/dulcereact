@@ -5,6 +5,7 @@ import productsLogo from "./icons/bxs-offer.svg";
 import receiptsLogo from "./icons/bx-note.svg";
 import contactLogo from "./icons/bxs-contact.svg";
 import { Link, withRouter } from "react-router-dom";
+import { BiHomeAlt, BiFile, BiStore, BiMobileAlt } from "react-icons/bi";
 
 const Navbar = () => {
   return (
