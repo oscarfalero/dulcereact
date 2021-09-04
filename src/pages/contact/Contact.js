@@ -1,12 +1,14 @@
 import React from "react";
+import ContactForm from "../../components/contact_form/ContactForm";
 import TopHeader from "../../components/topheader/TopHeader";
 
 const Contact = () => {
   return (
     <div>
-      <h2>Contacto</h2>
-      <div>Aquí van los datos de contacto.</div>
       <TopHeader />
+      <h2>Contacto</h2>
+      <p>Puedes contactarme por mis redes o llenando el formulario</p>
+      <ContactForm />
     </div>
   );
 };
