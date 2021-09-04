@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NavBar.module.css";
 import { Link, withRouter } from "react-router-dom";
-import { BiHomeAlt, BiFile, BiStore, BiMobileAlt } from "react-icons/bi";
+import { BiHomeAlt, BiFile, BiStore, BiUser } from "react-icons/bi";
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
         <span className={styles.nav_text}>Recetas</span>
       </Link>
       <Link to="/contacto" className={styles.nav_link}>
-        <BiMobileAlt />
+        <BiUser />
         <span className={styles.nav_text}>Contacto</span>
       </Link>
     </nav>
