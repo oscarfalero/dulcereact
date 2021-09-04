@@ -1,3 +1,26 @@
+/* .container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn_menu {
+  background-color: #fc6c3f;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 30px;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+} */
+
 /*  NAV MOBILE */
 .nav {
   position: fixed;
@@ -28,22 +51,10 @@
   transition: background-color 0, 1s ease-in-out;
 }
 
-.nav_link:hover svg, 
-.nav_link:hover .nav_text {
-  fill: #fc6c3f;
+.nav_link:hover {
   color: #fc6c3f;
 }
 
-.nav_link_active {
-  color: #009578;
-}
-
-.nav_link svg {
-  display: block;
-  width: 20px;
-  height: auto;
-}
-
-.nav_link svg path {
- stroke-width: 0;
+.nav_link img:hover {
+  color: #fc6c3f;
 }
