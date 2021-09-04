@@ -34,34 +34,16 @@
   color: #fc6c3f;
 }
 
-<<<<<<< Updated upstream
-.nav_link img:hover {
-  color: #fc6c3f;
-}
-=======
 .nav_link_active {
   color: #009578;
 }
 
-.nav_icon {
-  font-size: 18px;
-}
-
-.icon {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 40px 40px;
-  color: black;
-}
-
 .nav_link svg {
-  display: inline-block;
-  width: 25px;
+  display: block;
+  width: 20px;
   height: auto;
 }
 
 .nav_link svg path {
  stroke-width: 0;
 }
->>>>>>> Stashed changes
