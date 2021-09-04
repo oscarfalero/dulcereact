@@ -1,16 +1,23 @@
 import React from "react";
-import Header from "./components/header/Header";
-import TopHeader from "./components/topheader/TopHeader";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
-import CardCarousel from "./components/carousel/CardCarousel";
+import RecList from "./pages/recipes/recList/RecList";
+import ProductList from "./pages/products/productList/ProductList";
+import Contact from "./pages/contact/Contact";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <>
-      <TopHeader />
-      <Header />
-      <NavBar />
-      <CardCarousel />
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route path="/" exact component={() => <Home />} />
+          <Route path="/productos" exact component={() => <ProductList />} />
+          <Route path="/recetas" exact component={() => <RecList />} />
+          <Route path="/contacto" exact component={() => <Contact />} />
+        </Switch>
+      </Router>
     </>
   );
 }

@@ -6,6 +6,10 @@ h1 {
   color: #fc6c3f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   position: relative;
   text-align: center;
