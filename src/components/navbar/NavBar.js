@@ -1,29 +1,26 @@
 import React from "react";
 import styles from "./NavBar.module.css";
-import homeLogo from "./icons/bx-home-alt.svg";
-import productsLogo from "./icons/bxs-offer.svg";
-import receiptsLogo from "./icons/bx-note.svg";
-import contactLogo from "./icons/bxs-contact.svg";
 import { Link, withRouter } from "react-router-dom";
+import { BiHomeAlt, BiFile, BiStore, BiMobileAlt } from "react-icons/bi";
 
 const Navbar = () => {
   return (
     <nav className={styles.nav}>
-      <Link to="/" className={styles.nav_link}>
-        <img src={homeLogo} alt="Inicio" />
-        <span>Inicio</span>
+      <Link to="/" className={`${styles.nav_link} ${styles.nav_link_active}`}>
+        <BiHomeAlt />
+        <span className={styles.nav_text}>Inicio</span>
       </Link>
       <Link to="/productos" className={styles.nav_link}>
-        <img src={productsLogo} alt="Inicio" />
-        <span>Productos</span>
+        <BiStore />
+        <span className={styles.nav_text}>Productos</span>
       </Link>
       <Link to="/recetas" className={styles.nav_link}>
-        <img src={receiptsLogo} alt="Inicio" />
-        <span>Recetas</span>
+        <BiFile />
+        <span className={styles.nav_text}>Recetas</span>
       </Link>
       <Link to="/contacto" className={styles.nav_link}>
-        <img src={contactLogo} alt="Inicio" />
-        <span>Contacto</span>
+        <BiMobileAlt />
+        <span className={styles.nav_text}>Contacto</span>
       </Link>
     </nav>
   );
