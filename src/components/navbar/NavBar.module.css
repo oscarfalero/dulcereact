@@ -34,12 +34,8 @@
   color: #fc6c3f;
 }
 
-.nav_link img:hover {
-  color: #fc6c3f;
-}
-
 .nav_link_active {
-  color: #009578;
+  color: #fc6c3f;
 }
 
 .nav_icon {
