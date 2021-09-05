@@ -9,3 +9,8 @@ h2 {
 .text_box {
   font-size: 0.9rem;
 }
+
+.contact {
+  margin: 15px;
+  padding: 0.1px;
+}

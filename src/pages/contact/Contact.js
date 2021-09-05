@@ -5,7 +5,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <div>
+    <div className={styles.contact}>
       <TopHeader />
       <h2>Contacto</h2>
       <p className={styles.text_box}>
