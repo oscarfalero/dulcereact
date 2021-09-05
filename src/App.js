@@ -5,7 +5,6 @@ import RecList from "./pages/recipes/recList/RecList";
 import ProductList from "./pages/products/productList/ProductList";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
-import Post from "./components/post/Post";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route path="/contacto" exact component={() => <Contact />} />
         </Switch>
       </Router>
-      <Post />
     </>
   );
 }
