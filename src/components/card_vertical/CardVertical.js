@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./ReceiptCard.module.css";
+import styles from "./CardVertical.module.css";
 
-const ReceiptCard = () => {
+const CardVertical = () => {
     return (
 
             <div className={styles.cards}>
@@ -28,4 +28,4 @@ const ReceiptCard = () => {
     );
 };
 
-export default ReceiptCard;
+export default CardVertical;
