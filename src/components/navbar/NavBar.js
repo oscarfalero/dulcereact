@@ -6,7 +6,7 @@ import { BiHomeAlt, BiFile, BiStore, BiUser } from "react-icons/bi";
 const Navbar = () => {
   return (
     <nav className={styles.nav}>
-      <Link to="/" className={`${styles.nav_link} ${styles.nav_link_active}`}>
+      <Link to="/" className={styles.nav_link}>
         <BiHomeAlt />
         <span className={styles.nav_text}>Inicio</span>
       </Link>

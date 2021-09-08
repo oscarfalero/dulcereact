@@ -28,15 +28,19 @@
   transition: background-color 0, 1s ease-in-out;
 }
 
+.nav_link:focus {
+  color: #fc6c3f;
+}
+/* 
 .nav_link:hover svg,
 .nav_link:hover .nav_text {
   fill: #fc6c3f;
   color: #fc6c3f;
-}
-
+} */
+/* 
 .nav_link_active {
   color: #fc6c3f;
-}
+} */
 
 .nav_icon {
   font-size: 18px;
