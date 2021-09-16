@@ -14,7 +14,7 @@
   width: 95%;
 }
 
-img {
+.card img {
   width: calc(50% - 10px);
   border-style: none;
   max-width: 100%;
@@ -31,14 +31,17 @@ img {
   flex-basis: 50%;
 }
 
-a, a:hover, a:focus, a:active {
+.card a, 
+.card a:hover, 
+.card a:focus, 
+.card a:active {
   background-color: transparent;
   color: #007bff;
   text-decoration: none;
   outline: none;
 }
 
-h6 {
+.card h6 {
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
   color: #232d37;
@@ -47,7 +50,7 @@ h6 {
   font-size: 1rem;
 }
 
-p {
+.card p {
   font-size: 14px;
   color: #b5aec4;
   margin-bottom: 0;
