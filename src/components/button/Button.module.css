@@ -1,0 +1,11 @@
+button {
+    background-color: #388e3c;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 0px;
+    width: 100px;
+    height: 35px;
+}
+button:active {
+    transform: scale(.96);
+}

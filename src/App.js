@@ -6,6 +6,8 @@ import ProductList from "./pages/products/productList/ProductList";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 import styles from "./app.module.css";
+import Admin from "./pages/admin/Admin";
+import LogIn from "./pages/login/LogIn";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Route path="/productos" exact component={() => <ProductList />} />
             <Route path="/recetas" exact component={() => <RecList />} />
             <Route path="/contacto" exact component={() => <Contact />} />
+            <Route path="/admin" exact component={() => <Admin />} />
+            <Route path="/login" exact component={() => <LogIn />} />
           </Switch>
         </div>
       </Router>
