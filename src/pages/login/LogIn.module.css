@@ -5,6 +5,8 @@ input {
     font-family: "Roboto", sans-serif;
     padding: 10px 5px;
     width: 95%;
+  }:focus{
+      outline: none;
   }
 
 .form_group {

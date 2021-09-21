@@ -9,7 +9,7 @@ const CardHorizontal = () => {
             <div className={styles.card}>
                 <img src={Cacerola} alt="" className={styles.card__img}></img>
                 <div className={styles.card__content}>
-                    <a href="#">
+                    <a href="/">
                         <h6>Cacerola Clasica Marsala</h6>
                     </a>
                     <p>
@@ -26,7 +26,7 @@ const CardHorizontal = () => {
             <div className={styles.card}>
                 <img src={SartenAqua} alt="" className={styles.card__img}></img>
                 <div className={styles.card__content}>
-                    <a href="#">
+                    <a href="/">
                         <h6>Sartén Aqua</h6>
                     </a>
                     <p>
