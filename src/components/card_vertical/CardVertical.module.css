@@ -23,6 +23,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem 0px;
+  width: 100%;
 }
 
 .card {
@@ -35,7 +36,7 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   overflow: hidden;
-  max-width: 90%;
+  width: 90%;
   margin: 5px auto;
 }
 
