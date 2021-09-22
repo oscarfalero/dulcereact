@@ -4,7 +4,7 @@ import styles from "./ContactForm.module.css";
 const ContactForm = () => {
   return (
     <form action="/" name="contact" method="POST">
-      <div classNameName="form-group">
+      <div className="form-group">
         <input
           type="text"
           className={styles.form_cont}
