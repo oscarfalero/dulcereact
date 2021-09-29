@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "date": "21/9/21",
+      "title": "Pollo con papas",
+      "time": 25,
+      "portions": 5,
+      "ingredients": [
+        "4 papas rosadas",
+        "400g de pechuga de pollo",
+        "1 pizca de sal",
+        "oregano"
+      ],
+      "procedure": "Colocar las papas primero en la olla y cocina en a fuego moderado, luego de 15 min agregar el pollo y los condimentos.",
+      "image": "/"
+    },
+    {
+      "id": 2,
+      "date": "28/9/21",
+      "title": "Mariscos con ensalada",
+      "time": 20,
+      "portions": 4,
+      "ingredients": [
+        "500g de marisocos",
+        "500g de ensalada mixta",
+        "1 pizca de sal",
+        "aceite de oliva"
+      ],
+      "procedure": "Preparar la ensalada, colocar en una cacerola los mariscos con sal",
+      "image": "/"
+    }
+  ]
+}
